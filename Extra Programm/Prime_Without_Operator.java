@@ -28,7 +28,7 @@ public class Prime_Without_Operator{
 	}
 
 	int countModule(int n,int i){
-		while(n>i){
+		while(n>=i){
 			n=n-i;
 		}
 		return n;
