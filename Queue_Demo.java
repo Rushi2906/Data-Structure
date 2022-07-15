@@ -9,7 +9,7 @@ class Queue{
 	public void enque(){
 		int x;
 		if(rear>10){
-			System.out.println("Queue is Empty");
+			System.out.println("Queue is Full");
 		}
 		else{
 			if(rear==-1){
